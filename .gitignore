@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Temporary and editor files
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Local raw logs - keep private
+reports/system-baseline.txt
+reports/authentication-baseline.txt
+reports/authentication-filtered.txt
+reports/ssh-authentication-events.txt
