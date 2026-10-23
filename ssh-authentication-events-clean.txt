@@ -1,0 +1,3 @@
+2026-10-23T21:31:30.121731+05:30 kili sshd-session[31479]: Invalid user invaliduser from 127.0.0.1 port 43680
+2026-10-23T21:31:45.955497+05:30 kili sshd-session[31479]: Failed password for invalid user invaliduser from 127.0.0.1 port 43680 ssh2
+2026-10-23T21:31:48.591189+05:30 kili sshd-session[31479]: Connection closed by invalid user invaliduser 127.0.0.1 port 43680 [preauth]

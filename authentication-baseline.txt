@@ -1,0 +1,104 @@
+=== AUTHENTICATION EVENT REVIEW ===
+Friday 23 October 2026 09:10:40 PM IST
+
+=== RECENT AUTHENTICATION EVENTS ===
+2026-10-22T19:32:54.968266+05:30 kili systemd-logind[843]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+2026-10-22T19:32:54.968271+05:30 kili systemd-logind[843]: Watching system buttons on /dev/input/event3 (Power Button)
+2026-10-22T19:32:54.968275+05:30 kili systemd-logind[843]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-10-22T19:32:54.968277+05:30 kili systemd-logind[843]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-10-22T19:32:54.968281+05:30 kili systemd-logind[843]: Watching system buttons on /dev/input/event11 (Acer WMI hotkeys)
+2026-10-22T19:32:54.969631+05:30 kili polkitd[838]: Loading rules from directory /etc/polkit-1/rules.d
+2026-10-22T19:32:54.969907+05:30 kili polkitd[838]: Loading rules from directory /run/polkit-1/rules.d
+2026-10-22T19:32:54.969930+05:30 kili polkitd[838]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-10-22T19:32:54.969951+05:30 kili polkitd[838]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-10-22T19:32:54.969969+05:30 kili polkitd[838]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-10-22T19:32:54.969991+05:30 kili polkitd[838]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-10-22T19:32:54.972064+05:30 kili polkitd[838]: Finished loading, compiling and executing 8 rules
+2026-10-22T19:32:54.972831+05:30 kili polkitd[838]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-10-22T19:32:57.165445+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-10-22T19:32:57.182396+05:30 kili systemd-logind[843]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-10-22T19:32:57.215421+05:30 kili (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-10-22T19:32:57.216070+05:30 kili systemd-logind[843]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-10-22T19:32:57.411522+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-10-22T19:33:04.617409+05:30 kili lightdm: gkr-pam: unable to locate daemon control file
+2026-10-22T19:33:04.617492+05:30 kili lightdm: gkr-pam: stashed password to try later in open session
+2026-10-22T19:33:04.667147+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-10-22T19:33:04.667233+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-10-22T19:33:04.669027+05:30 kili systemd-logind[843]: Removed session c1.
+2026-10-22T19:33:04.669616+05:30 kili lightdm: pam_unix(lightdm:session): session opened for user roshini(uid=1001) by roshini(uid=0)
+2026-10-22T19:33:04.682678+05:30 kili systemd-logind[843]: New session '2' of user 'roshini' with class 'user' and type 'x11'.
+2026-10-22T19:33:04.710826+05:30 kili (systemd): pam_unix(systemd-user:session): session opened for user roshini(uid=1001) by roshini(uid=0)
+2026-10-22T19:33:04.711465+05:30 kili systemd-logind[843]: New session '3' of user 'roshini' with class 'manager' and type 'unspecified'.
+2026-10-22T19:33:04.891534+05:30 kili lightdm: gkr-pam: unlocked login keyring
+2026-10-22T19:33:05.757632+05:30 kili polkitd[838]: Registered Authentication Agent for unix-session:2 (system bus name :1.51 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+2026-10-22T19:33:05.903615+05:30 kili pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by roshini(uid=1001)
+2026-10-22T19:33:05.903798+05:30 kili pkexec[2053]: roshini: Executing command [USER=root] [TTY=unknown] [CWD=/home/roshini] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-10-22T19:33:11.732249+05:30 kili gnome-keyring-daemon[1663]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-10-22T19:33:14.999090+05:30 kili systemd-logind[843]: Removed session 1.
+2026-10-22T19:33:14.999388+05:30 kili (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-10-22T19:39:01.677017+05:30 kili CRON[7147]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-22T19:39:01.679278+05:30 kili CRON[7147]: pam_unix(cron:session): session closed for user root
+2026-10-22T19:49:42.312809+05:30 kili xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-10-22T19:49:42.315820+05:30 kili xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-10-22T19:57:35.523604+05:30 kili xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-10-22T19:57:35.524655+05:30 kili xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-10-22T20:02:07.260015+05:30 kili systemd-logind[843]: The system will power off now!
+2026-10-22T20:02:07.260735+05:30 kili systemd-logind[843]: System is powering down.
+2026-10-22T20:02:07.273153+05:30 kili ssh-agent[1782]: exiting on signal 15
+2026-10-23T20:48:34.244296+05:30 kili systemd-logind[846]: New seat seat0.
+2026-10-23T20:48:34.244320+05:30 kili systemd-logind[846]: Watching system buttons on /dev/input/event1 (Lid Switch)
+2026-10-23T20:48:34.244322+05:30 kili systemd-logind[846]: Watching system buttons on /dev/input/event8 (Intel HID events)
+2026-10-23T20:48:34.244324+05:30 kili systemd-logind[846]: Watching system buttons on /dev/input/event9 (Intel HID 5 button array)
+2026-10-23T20:48:34.244664+05:30 kili systemd-logind[846]: Watching system buttons on /dev/input/event3 (Power Button)
+2026-10-23T20:48:34.244669+05:30 kili systemd-logind[846]: Watching system buttons on /dev/input/event2 (Sleep Button)
+2026-10-23T20:48:34.244672+05:30 kili systemd-logind[846]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-10-23T20:48:34.244681+05:30 kili systemd-logind[846]: Watching system buttons on /dev/input/event11 (Acer WMI hotkeys)
+2026-10-23T20:48:34.246485+05:30 kili polkitd[840]: Loading rules from directory /etc/polkit-1/rules.d
+2026-10-23T20:48:34.246737+05:30 kili polkitd[840]: Loading rules from directory /run/polkit-1/rules.d
+2026-10-23T20:48:34.246773+05:30 kili polkitd[840]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-10-23T20:48:34.246800+05:30 kili polkitd[840]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-10-23T20:48:34.246819+05:30 kili polkitd[840]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-10-23T20:48:34.246838+05:30 kili polkitd[840]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-10-23T20:48:34.252059+05:30 kili polkitd[840]: Finished loading, compiling and executing 8 rules
+2026-10-23T20:48:34.252527+05:30 kili polkitd[840]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-10-23T20:48:36.382478+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-10-23T20:48:36.391983+05:30 kili systemd-logind[846]: New session 'c1' of user 'lightdm' with class 'greeter' and type 'x11'.
+2026-10-23T20:48:36.425820+05:30 kili (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=109) by lightdm(uid=0)
+2026-10-23T20:48:36.427047+05:30 kili systemd-logind[846]: New session '1' of user 'lightdm' with class 'manager-early' and type 'unspecified'.
+2026-10-23T20:48:36.600478+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=109) by (uid=0)
+2026-10-23T20:48:48.021080+05:30 kili lightdm: gkr-pam: unable to locate daemon control file
+2026-10-23T20:48:48.021176+05:30 kili lightdm: gkr-pam: stashed password to try later in open session
+2026-10-23T20:48:48.093447+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-10-23T20:48:48.093546+05:30 kili lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2026-10-23T20:48:48.096229+05:30 kili systemd-logind[846]: Removed session c1.
+2026-10-23T20:48:48.096814+05:30 kili lightdm: pam_unix(lightdm:session): session opened for user roshini(uid=1001) by roshini(uid=0)
+2026-10-23T20:48:48.105332+05:30 kili systemd-logind[846]: New session '2' of user 'roshini' with class 'user' and type 'x11'.
+2026-10-23T20:48:48.137935+05:30 kili (systemd): pam_unix(systemd-user:session): session opened for user roshini(uid=1001) by roshini(uid=0)
+2026-10-23T20:48:48.138856+05:30 kili systemd-logind[846]: New session '3' of user 'roshini' with class 'manager' and type 'unspecified'.
+2026-10-23T20:48:48.343169+05:30 kili lightdm: gkr-pam: unlocked login keyring
+2026-10-23T20:48:49.349901+05:30 kili polkitd[840]: Registered Authentication Agent for unix-session:2 (system bus name :1.50 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN)
+2026-10-23T20:48:49.528301+05:30 kili pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by roshini(uid=1001)
+2026-10-23T20:48:49.528783+05:30 kili pkexec[2567]: roshini: Executing command [USER=root] [TTY=unknown] [CWD=/home/roshini] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness-switch 0]
+2026-10-23T20:48:55.530088+05:30 kili gnome-keyring-daemon[2172]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-10-23T20:48:58.230675+05:30 kili systemd-logind[846]: Removed session 1.
+2026-10-23T20:48:58.230947+05:30 kili (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2026-10-23T20:50:24.339731+05:30 kili xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): conversation failed
+2026-10-23T20:50:24.340207+05:30 kili xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): auth could not identify password for [roshini]
+2026-10-23T20:56:05.717225+05:30 kili xfce4-screensaver-dialog: gkr-pam: unlocked login keyring
+2026-10-23T20:56:05.717415+05:30 kili xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+2026-10-23T21:00:18.499257+05:30 kili sudo:  roshini : TTY=pts/0 ; PWD=/home/roshini ; USER=root ; COMMAND=/usr/bin/journalctl --since '24 hours ago' --no-pager
+2026-10-23T21:00:18.499608+05:30 kili sudo: pam_unix(sudo:session): session opened for user root(uid=0) by roshini(uid=1001)
+2026-10-23T21:00:18.657272+05:30 kili sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T21:00:26.896464+05:30 kili sudo:  roshini : TTY=pts/0 ; PWD=/home/roshini ; USER=root ; COMMAND=/usr/bin/test -f /var/log/auth.log
+2026-10-23T21:00:26.896869+05:30 kili sudo: pam_unix(sudo:session): session opened for user root(uid=0) by roshini(uid=1001)
+2026-10-23T21:00:26.935228+05:30 kili sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T21:00:26.945301+05:30 kili sudo:  roshini : TTY=pts/0 ; PWD=/home/roshini ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/auth.log
+2026-10-23T21:00:26.945608+05:30 kili sudo: pam_unix(sudo:session): session opened for user root(uid=0) by roshini(uid=1001)
+2026-10-23T21:00:26.947385+05:30 kili sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T21:09:01.200710+05:30 kili CRON[19129]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-23T21:09:01.202630+05:30 kili CRON[19129]: pam_unix(cron:session): session closed for user root
+2026-10-23T21:10:02.235245+05:30 kili sudo:  roshini : TTY=pts/0 ; PWD=/home/roshini/SOC-L1-Home-Lab ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2026-10-23T21:10:02.235630+05:30 kili sudo: pam_unix(sudo:session): session opened for user root(uid=0) by roshini(uid=1001)
+2026-10-23T21:10:02.236582+05:30 kili sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T21:10:41.004916+05:30 kili sudo:  roshini : TTY=pts/0 ; PWD=/home/roshini/SOC-L1-Home-Lab ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/auth.log
+2026-10-23T21:10:41.005232+05:30 kili sudo: pam_unix(sudo:session): session opened for user root(uid=0) by roshini(uid=1001)
